@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "86437920872",
+    "project_id": "login-de363",
+    "storage_bucket": "login-de363.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86437920872:android:81f4c9dec2d6695d053bdd",
+        "android_client_info": {
+          "package_name": "com.example.fta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXkaqUDmWOULTVP7rvhAnjVEXjEm4lr2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

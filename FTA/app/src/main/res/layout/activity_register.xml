@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/img_backlogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_back"
+        android:paddingEnd="350dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Đăng Ký"
+        android:background="#EFC239"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@drawable/vienngoai"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtEmailDK"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:drawableStart="@drawable/ic_mail"
+            android:background="@drawable/vienedt"
+            android:paddingLeft="20dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/vienedt"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtPSDK"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_ps"
+                android:ems="10"
+                android:backgroundTint="@color/white"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iconpasssworddk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/vision_off" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu phải dài hơn 6 ký tự"
+            android:textSize="15sp"
+            android:layout_marginRight="30dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/vienedt"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtPSCF"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_ps"
+                android:ems="10"
+                android:backgroundTint="@color/white"
+                android:hint="Nhập lại mật khẩu"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iconpassswordcf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/vision_off" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu phải dài hơn 6 ký tự"
+            android:textSize="15sp"
+            android:layout_marginRight="30dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mauchinh"
+        android:layout_marginTop="50dp"
+        android:text="Đăng Ký"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

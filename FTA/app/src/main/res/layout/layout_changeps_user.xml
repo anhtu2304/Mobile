@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:background="@drawable/vienngoai">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đổi Mật Khẩu"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtoldps"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/vienedt"
+        android:hint="Mật khẩu cũ"
+        android:textSize="20dp"
+        android:paddingStart="15dp"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/edtnewps"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/vienedt"
+        android:hint="Mật khẩu mới"
+        android:textSize="20dp"
+        android:paddingStart="15dp"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/edtcfnewps"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/vienedt"
+        android:hint="Nhập lại mật khẩu mới"
+        android:textSize="20dp"
+        android:paddingStart="15dp"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/btndone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác Nhận"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/mauchinh"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

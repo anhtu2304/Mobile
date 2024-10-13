@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/img_backmenu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_back"
+        android:paddingEnd="350dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/mauchinh"
+        android:textColor="@color/black"
+        android:text="Đăng Nhập"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@drawable/vienngoai"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:drawableStart="@drawable/ic_mail"
+            android:background="@drawable/vienedt"
+            android:paddingLeft="20dp"
+            android:ems="10"
+            android:hint="Email người dùng"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/vienedt"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtPS"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_ps"
+                android:ems="10"
+                android:backgroundTint="@color/white"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iconpasssword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/vision_off" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vienbtn"
+                android:text="Nhớ tài khoản"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnDK"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:text="Đăng Ký"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/mauchinh"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearForgotPS"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/txtforgotPS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quên mật khẩu?"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#EFC239"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mauchinh"
+        android:layout_marginTop="50dp"
+        android:text="Đăng Nhập"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
